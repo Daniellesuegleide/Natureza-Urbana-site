@@ -11,7 +11,7 @@ body {
 /*Barra de navegação*/
 nav.navbar-transparent {
     padding: 15px 0px;
-    background: rgba(0,0,0,0.6);
+    background:#092730;
 }
 
 .navbar-light .navbar-nav .nav-link {
