@@ -31,6 +31,10 @@ nav.navbar-transparent {
     border-color: rgba(255,255,255,0.5);
 }
 
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+
+}
 /*Capa*/
 .capa {
     text-align: center;
