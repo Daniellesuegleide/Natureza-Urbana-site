@@ -23,7 +23,7 @@ nav.navbar-transparent {
 }
 
 .navbar-light .navbar-toggler {
-    color:  rgba(255,255,255,.5;    
+    color:  rgba(255,255,255,.5);    
     border-color: rgba(255,255,255,0.5);
 }
 
@@ -36,5 +36,6 @@ h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
     margin-bottom: 50px;    
-    color: white;
+    color: #2e424b;
+    font-family: 'Cormorant Garamond', serif;
 }
