@@ -1,9 +1,12 @@
 /*layout*/
 html, body, #home{
     height: 100%;
+    overflow-x: hidden;
+    text-align: justify;
+    
 }
 body {
-    background: url(../imagens/capa.jpg);
+    background: url(../imagens/capa1.jpg);
     background-attachment: fixed;/*imagem de fundo ficar fixa*/
    
 }
@@ -11,11 +14,12 @@ body {
 /*Barra de navegação*/
 nav.navbar-transparent {
     padding: 15px 0px;
-    background: rgba(146,213,143,0.5);
+    background: rgba(146,213,143,0.8);
 }
 
 .navbar-light .navbar-nav .nav-link {
     color:white;
+    font-family: 'Syne Mono', monospace;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -33,23 +37,50 @@ nav.navbar-transparent {
 }
 
 /*Estrutura dos conteudos*/
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 #servicos {
     background: rgba(146,213,143,0.7);
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+#recursos {
+    color: white;
+}
+
 #servicos h2, h3 {
     color: rgb(35, 131, 126) ;
 }
 
+#recursos h2 {
+    color: lawngreen;
+}
+
+#recursos h3 {
+    color: lightseagreen;
+}
 .albuns {
     padding: 10px 0;
 }
 
+.rotacionar {
+    /*transform: rotate(30deg);*/
+    padding: 100px;
+}
+
+footer {
+    background: #000;
+    padding: 10px 0 5px 0px;
+    text-align: justify;
+}
+
 /*Tipografia*/
 h1 {
-    font-weight: 900;
+    font-weight: 45px;
     letter-spacing: -0.05em;
     margin-bottom: 50px;    
     color: #2e424b;
