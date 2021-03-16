@@ -14,7 +14,14 @@ body {
 /*Barra de navegação*/
 nav.navbar-transparent {
     padding: 15px 0px;
-    background: rgba(146,213,143,0.8);
+    background: rgba(37, 38, 37, 1); 
+}
+
+.titulo {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    pointer-events: none;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -47,25 +54,25 @@ nav.navbar-transparent {
 }
 
 #servicos {
-    background: rgba(146,213,143,0.7);
+    background: rgba(75, 89, 79, 0.6);
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 #recursos {
-    color: white;
+    color: #252626;
 }
 
 #servicos h2, h3 {
-    color: rgb(35, 131, 126) ;
+    color: #222727 ;
 }
 
 #recursos h2 {
-    color: lawngreen;
+    color: #252626;
 }
 
 #recursos h3 {
-    color: lightseagreen;
+    color:#252626;
 }
 .albuns {
     padding: 10px 0;
@@ -83,11 +90,15 @@ footer {
 }
 
 /*Tipografia*/
+h2, h3 {
+    font-family: 'Dancing Script', cursive;
+}
+
 h1 {
-    font-weight: 45px;
+    font-weight: 35px;
     letter-spacing: -0.05em;
     margin-bottom: 50px;    
-    color: #2e424b;
+    color: #252626;
     font-family: 'Parisienne', cursive;
 }
 
@@ -95,6 +106,7 @@ h2 {
     font-size: 3em;
     font-weight: 700;
     letter-spacing: -0.04em;
+    
 }
 
 h3 {
@@ -105,7 +117,7 @@ h3 {
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
     h1 {
-        font-size: 1em;
+        font-size: 0.5em;
     }
 
  }
@@ -113,7 +125,7 @@ h3 {
 /*/ Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
     h1 {
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
  }
@@ -121,7 +133,7 @@ h3 {
 /*/ Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
     h1 {
-        font-size: 2em;
+        font-size: 1.0em;
     }
 
 
@@ -130,7 +142,7 @@ h3 {
 /*/ Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
     h1 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
 
@@ -141,6 +153,23 @@ h3 {
     h1 {
         font-size: 3em;
     }
+/* Color Theme Swatches in Hex */
+.nature-background-with-moody-vintage-forest-1-hex { color: #35403A; }
+.nature-background-with-moody-vintage-forest-2-hex { color: #252626; }
+.nature-background-with-moody-vintage-forest-3-hex { color: #4C594F; }
+.nature-background-with-moody-vintage-forest-4-hex { color: #A4A69C; }
+.nature-background-with-moody-vintage-forest-5-hex { color: #BFBFB8; }
 
+/* Color Theme Swatches in RGBA */
+.nature-background-with-moody-vintage-forest-1-rgba { color: rgba(52, 63, 57, 1); }
+.nature-background-with-moody-vintage-forest-2-rgba { color: rgba(37, 38, 37, 1); }
+.nature-background-with-moody-vintage-forest-3-rgba { color: rgba(75, 89, 79, 1); }
+.nature-background-with-moody-vintage-forest-4-rgba { color: rgba(163, 165, 155, 1); }
+.nature-background-with-moody-vintage-forest-5-rgba { color: rgba(191, 190, 183, 1); }
 
-}
+/* Color Theme Swatches in HSLA */
+.nature-background-with-moody-vintage-forest-1-hsla { color: hsla(146, 9, 22, 1); }
+.nature-background-with-moody-vintage-forest-2-hsla { color: hsla(146, 1, 14, 1); }
+.nature-background-with-moody-vintage-forest-3-hsla { color: hsla(135, 8, 32, 1); }
+.nature-background-with-moody-vintage-forest-4-hsla { color: hsla(73, 5, 63, 1); }
+.nature-background-with-moody-vintage-forest-5-hsla { color: hsla(56, 5, 73, 1); }
